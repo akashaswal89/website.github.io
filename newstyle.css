@@ -47,6 +47,11 @@ header{
 .nav-list-mobile{
     display: none;
 }
+.moblie{
+    visibility: hidden;
+    position: relative;
+    bottom: 45px;
+}
 
 .nav-link{
     font-size: 1.4rem;
@@ -218,7 +223,11 @@ footer div a{
         background: url("./images/hero/watch/logo_watch_medium.png") center no-repeat;
         background-size: auto 6.2rem;
     }
+    
 }
+/* .nav-list-larger{
+visibility: hidden;
+    } */
 
 /* mobile view */
 
@@ -342,5 +351,11 @@ footer div a{
   
     .cta-link {
       font-size: 1.9rem;
+    }
+    .nav > .nav-list-larger{
+        visibility: hidden;
+    }
+    .moblie{
+        visibility: visible;
     }
   }
